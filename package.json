@@ -6,11 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rimraf .next node_modules"
+
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
     "clsx": "^2.1.1",
     "eslint-config-prettier": "^9.1.0",
+    "formic": "^0.0.10",
+    "formik": "^2.4.6",
     "next": "14.2.14",
     "prettier": "^3.3.3",
     "react": "^18",
